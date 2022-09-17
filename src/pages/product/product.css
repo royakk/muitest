@@ -1,0 +1,19 @@
+.product{
+    flex: 4;
+}
+
+.productlistitem{
+    display: flex;
+    align-items: center;
+}
+
+.productlistimg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+
+
+

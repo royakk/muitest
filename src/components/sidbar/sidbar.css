@@ -1,0 +1,32 @@
+.sidbar{
+    flex:1;
+    height: 100vh;
+    background-color: rgb(184, 201, 228);
+    position: sticky;
+    top: 50px;
+
+}
+.sidbarwraper{
+    color: #555;
+padding: 15px;
+}
+.sidbarmenu{
+    margin-bottom: 10px;
+}
+.sidbarlist{
+    list-style: none;
+    padding: 5px;
+}
+.sidbaritem{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.sidbaritem.active ,.sidbaritem:hover{
+    background-color: rgb(230, 229, 240);
+} 
+.link{
+    text-decoration: none;
+}
